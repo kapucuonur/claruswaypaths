@@ -1,0 +1,132 @@
+*{
+    margin: 1;
+    padding: ;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #2414b0ec,#DBD65C) ;
+}
+
+
+img{
+  /* border: 2px solid red; */
+width: 150px;
+float: left;
+margin-left: 350px;
+margin-top: 25px;
+
+
+}
+h1{
+    /* font-family: 'Grape Nuts', cursive; */
+    /* font-family: 'Rubik Burned', system-ui; */
+    font-family: "Rubik Burned", system-ui;
+    font-size: 80px;
+    padding: 30px;
+
+}
+
+.container{
+    /* border: 2px solid red; */
+    margin: auto 10rem;
+}
+.path{
+    /* border: 2px solid red; */
+    height: 15rem;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.192)
+
+}
+.path:hover{
+    transform: scale(1.1);
+}
+
+.info{
+    padding-top: 15px;
+}
+.image{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: 210px;
+    float: left;
+    margin: 15px 5px 15px 15px;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    color:brown;
+}
+
+p{
+    color:rgb(240, 231, 231);
+    text-indent: 15px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+a{
+    /* border: 2px solid blue; */
+    width: 90px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: rgba(230, 28, 45, 0.712);
+    border-radius: 5px;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+}
+
+a:hover{
+    transform: scale(0.8) ;
+}
+
+
+.CS-link{
+    margin-bottom: 20%;
+}
+
+.img1{
+    background-image: url(./fs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(./aws.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(./datascience.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url(./salesforce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img5{
+    background-image: url(./cs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url(./web3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img7{
+    background-image: url(./sdet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
